@@ -4,6 +4,8 @@
   "description": "curso de js com tdd",
   "main": "index.js",
   "scripts": {
+    "vini": "echo 'vini'",
+    "prepush": "npm run vini",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
     "tdd"
   ],
   "author": "Vinicius Gomes",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^2.2.0"
+  }
 }
