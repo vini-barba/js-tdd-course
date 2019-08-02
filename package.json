@@ -1,24 +1,21 @@
 {
   "name": "js-tdd-course",
   "version": "1.0.0",
-  "description": "curso de js com tdd",
+  "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "vini": "echo 'vini'",
-    "prepush": "npm run vini",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "(https://github.com/vini-barba/js-tdd-course.git)"
+    "url": "git+https://github.com/vini-barba/js-tdd-course.git"
   },
-  "keywords": [
-    "js",
-    "tdd"
-  ],
-  "author": "Vinicius Gomes",
-  "license": "MIT",
-  "devDependencies": {
-    "husky": "^2.2.0"
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vini-barba/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/vini-barba/js-tdd-course#readme"
 }
