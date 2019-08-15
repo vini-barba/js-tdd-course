@@ -1,8 +1,10 @@
-const a = 0
-let b = 0
-b = 1
 
-function teste(v1, v2) {
-  return v1 + v2
-}
-teste(a, b)
+const fizzBuzz = (num) => {
+  let resposta = '';
+  if (num === 0) return num;
+  if (num % 3 === 0) resposta += 'Fizz';
+  if (num % 5 === 0) resposta += 'Buzz';
+  if (resposta !== '') return resposta;
+  return num;
+};
+export default fizzBuzz;
